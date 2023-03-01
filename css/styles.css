@@ -6,7 +6,7 @@
 /* Styles for the body */
 
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: 'Times New Roman', Times, serif;
 	color: #202030;
 	background-color: #f8f8fc;
 }
@@ -36,7 +36,7 @@ body {
 }
 
 .biography-details li::before {
-	color: #98C9D1;
+	color: #CCD5AE;
 }
 
 .biography-details li, .skill-list li {

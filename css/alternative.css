@@ -74,7 +74,7 @@ footer {
 	min-width: 80px;
 	display: flex;
 	flex-flow: column;
-	background-color: #301010;
+	background-color: #CCD5AE;
 	color: #f0f0f0;
 	height: 100%;
 	background-image: linear-gradient(to bottom, rgba(255, 255, 255, .1), transparent);
@@ -187,14 +187,14 @@ h2 {
 
 .resume-aside {
 	flex: 1 1 250px;
-	background-color: #282840;
-	color: #f0f0f0;
+	background-color: #CCD5AE;
+	color: #fff9e9;
 	display: flex;
 	flex-flow: column;
 }
 
 .resume-aside a {
-	color: #c0c0ff;
+	color: #FEFAE0;
 }
 
 .resume-aside a:hover {
@@ -230,7 +230,7 @@ h2 {
 }
 
 .language-progress {
-	background-color: #ffff00;
+	background-color: #FAEDCD;
 }
 
 .language-level h6 {
