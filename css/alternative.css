@@ -1,4 +1,5 @@
 @import url(https://api.fontshare.com/css?f[]=telma@900&f[]=erode@1&display=swap);
+@import url(https://use.typekit.net/bus6qeq.css);
 
 /* Starting with a CSS reset */
 
@@ -88,9 +89,10 @@ footer {
 }
 
 .portrait-container img {
-	border-radius: 130px;
-	width: 100%;
-	max-height: 100%;
+	border-radius: 50%;
+	object-fit: cover;
+	width: 180px;
+	height: 180px;
 }
 
 .header-content {
@@ -102,9 +104,10 @@ footer {
 }
 
 h1 {
-	font-size: clamp(28px, 3vh, 40px);
-	font-weight: 900;
-	font-family:  Telma;
+	font-size: clamp(40px, 3vh, 40px);
+	font-weight: 400;
+	font-family: "highest-praise", sans-serif;
+	font-style: normal;
 	writing-mode: vertical-lr;
 	transform:  rotate(180deg);
 }
@@ -169,9 +172,10 @@ h1 {
 
 h2 {
 	writing-mode: vertical-lr;
-	font-size: clamp(20px, 2.5vh, 36px);
-	font-weight: 900;
-	font-family:  Telma;
+	font-size: clamp(25px, 2.5vh, 36px);
+	font-weight: 400;
+	font-family: "highest-praise", sans-serif;
+	font-style: normal;
 }
 
 .resume-main h2 {
